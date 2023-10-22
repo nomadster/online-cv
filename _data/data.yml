@@ -17,7 +17,7 @@ sidebar:
     phone: +39 349 6132840
     timezone: Europe/Rome Timezone
     citizenship: Italian
-    website: spasmodicsoftware.it #do not add http://
+    website: www.spasmodicsoftware.it #do not add http://
     linkedin: alessandrolensi
     github: nomadster
     telegram: nomadster # add your nickname without '@' sign
@@ -37,18 +37,6 @@ sidebar:
 
         - idiom: Italian
           level: Native
-
-    interests:
-      title: Interests
-      info:
-        - item: Pietro
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
