@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Alessandro Lensi
@@ -52,22 +52,27 @@ education:
     info:
       - degree: BSc in Computer Science
         university: University of Pisa
-        time: 2011 - 2012
+        time: 2007 - 2013
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          My thesis work, which you can find <a href="https://github.com/nomadster/lamg_cpp" target="_blank">here</a>, consisted in porting an algebraic multigrid algorithm from its Matlab implementation 
+          into the Operations Research Group framework, using C++ and Expression Templates.
+          
+          I graduated with a score of 101 out of 110.
+          
+          Relevant courses for which I developed a project:
+
+            - Logistic: modeled a small Network Design problem solved using Sage Math + Python;
+            - CMS: had the chance to play with LaTeX typesetting system which I used to write a small essay;
+            - <a href="https://github.com/nomadster/LPR" target="_blank">Network Programming:</a> developed a GNU-tella like, multi-threaded, distributed file sharing system using Java and Java-RMI;
+            - <a href="https://github.com/nomadster/SOL" target="_blank">Advanced Programming:</a> developed a multi-threaded client-server program simulating a car-sharing system, using BASH, C and POSIX threads;
+            - <a href="https://github.com/nomadster/ESP" target="_blank">ESP:</a> developed numerical code in C to compute 1.000.000! using Fast Fourier Transform to speed up multiplication.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Software Engineer
+        time: 2021 - Present
+        company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -80,9 +85,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Software Engineer II
+        time: 2019 - 2021
+        company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -91,9 +96,9 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Software Developer
+        time: 2015 - 2019
+        company: Apparound, Pisa - Italy
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -102,115 +107,37 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Software developer
+        time: 2013 - 2015
+        company: Gruppo Meta, Pisa - Italy
+        details: |
+          BBlablabalbal
+      - role: Tutor
+        time: 2007 - 2013
+        company: Self Employed, Italy :)
+        details: |
+          Private lessons of Arithmetic, Calculus, Computer Science and Physics to students of any grade.
 
 projects:
-    title: Projects
+    title: Personal Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some of the projects I developed during the years in my spare time.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Authenticated Ladder
+        link: "https://github.com/SpasmodicSoftware/AuthenticatedLadder"
+        tagline: "Developed an opensource ranking formerly used in the early stages of the Demoniaca: Everlasting Nights video game, using ASP.NET Core and EntityFramework Core for the backend, JWT to sign the payload and travis.ci+coveralls+docker for the continuous integration. The project is automatically deployed with Fabric on a DigitalOcean droplet. It has 98.225% of code coverage, for what is worth :)"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Quattro
+        link: "https://nomadster.github.io/assets/images/gameplay.jpg"
+        tagline: "A 2D retro pixel art platform concept developed in 48 hours during Internet Festival 2014's Game Jam using Unity 3D. The game has been selected for the final, but we never finished it. The game has also been awarded the popular jury award The game rights have been sold to Gamera Interactive and the game hit the market as Unit 4"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Camouman
+        link: "https://play.google.com/store/apps/details?id=com.me.camuman"
+        tagline: "A free game for Android, developed using LibGDX (Java) and available on Google Play Store"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Spunball
+        link: "https://nomadster.github.io/assets/images/spunball.png"
+        tagline: "Experiments with LibGDX with the intent to produce a 2D platform suitable for Android devices. We also developed our own level editor exploiting SVG's XML structure."
 
 skills:
     title: Skills &amp; Proficiency
@@ -233,6 +160,3 @@ skills:
 
       - name: Sketch & Photoshop
         level: 60%
-
-footer: >
-  LOL
