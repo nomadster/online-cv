@@ -111,7 +111,14 @@ experiences:
         time: 2013 - 2015
         company: Gruppo Meta, Pisa - Italy
         details: |
-          BBlablabalbal
+          Gruppo Meta is a company that deals with the digital publishing industry.
+          My tasks consisted of:
+          - Building and maintaining the in-house node.js microframework, built on top of KOA.js
+          - Design and development of HTTP API and backend services using the in house microframework
+          - Building the infrastructure using Docker as a stepping stone to a microservice architecture
+          - Defining and implementing the Markup metalanguage used to import and index the dictionaries
+          - Building the parser, importer and indexer of the dictionaries
+
       - role: Tutor
         time: 2007 - 2013
         company: Self Employed, Italy :)
