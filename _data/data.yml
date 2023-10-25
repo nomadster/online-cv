@@ -89,24 +89,24 @@ experiences:
         time: 2019 - 2021
         company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
+          I had different roles in many teams inside this company. I started working to support OEM release our library
+          on their devices, by debugging issues and fixing bugs. I then was assigned to 
             - Bullet point
             - Bullet point
       - role: Software Developer
         time: 2015 - 2019
         company: Apparound, Pisa - Italy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Apparound is a company that delivers B2B solutions to digitise the selling process.
+          My main tasks and responsibilities included:
+          - Porting the internal app store to ASP.NET. This was an in-house app store for mobile devices to release beta versions
+          of our app for our customers without having to pass from the official stores.
+          - Maintain and improve the backoffice portal using AngularJS and ASP.NET with a Scrum approach.
+          - Develop and improve a webapp version of the main product application and its modules and features, 
+          using ReactJS + Redux for the frontend and ASP.Net and Node.JS for the backend.
+          - Contribute to develop a multi-tenant cloud infrastructure, porting the on premise solution.
+          - Develop an ASP.NET Core solution to handle digital signatures of contracts.
+
       - role: Software developer
         time: 2013 - 2015
         company: Gruppo Meta, Pisa - Italy
@@ -144,19 +144,3 @@ skills:
 
     toolset:
       - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
