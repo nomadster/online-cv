@@ -41,12 +41,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      With over 10 years of experience in software engineering, 
+      I am passionate about creating innovative and user-friendly solutions for
+      the leisure boating market. I have a strong background in computer science, and 
+      I am proficient in C#, Linux, C, Java, Whatever you like. 
+      As a Senior Software Engineer at Garmin Italy Technologies, I work with a 
+      talented and diverse team of engineers, designers, and product managers to 
+      develop electronic charts that enhance the navigation and safety of boaters around the world.
 education:
     title: Education
     info:
@@ -75,25 +76,25 @@ experiences:
         company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
           From 2021 I am a Senior Software Engineer. My responsibilities now consists of also mentoring and helping grow
-          junior engineers, as well as designing solutions to problems. In these 3 years I:
-          - merge di develop
-          - jenkins, per la build delle librerie per target emebedded.
-          - Lead a project with 2 Engineers. (Autorenewable)
-          - SPSL-> C++, Imaging C++ code, legacy C++ code, docker, coordinating between indian engineers and external consultants
-          Java
-          - QDC2.0 C++ code inside the main library of Garmin Marine.
+          junior engineers, as well as designing solutions to problems. Since January 2024 I have been officially assigned a mentee to mentor.
+         # In these 3 years I:
+         # - merge di develop
+         # - jenkins, per la build delle librerie per target emebedded.
+         # - Lead a project with 2 Engineers. (Autorenewable)
+         # - SPSL-> C++, Imaging C++ code, legacy C++ code, docker, coordinating between indian engineers and external consultants
+         # Java
+         # - QDC2.0 C++ code inside the main library of Garmin Marine.
 
       - role: Software Engineer II
         time: 2019 - 2021
         company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
-          During my first two years as Software Engineer, I had to deal with different kind of problems: 
-            - Support OEMs to release the library, through debugging sessions in embedded devices (Multi Functional Displays)
-            and bug fixing on C/C++ legacy code. 
-            - team web api in C#/ASP.NET + Spring Boot
-            - Michele C, CPS, PostGIS, docker
-            - Lavorato ad NGSR, usando gerrit per le code review e passando per il processo di design/implementazione/test/rilascio di Garmin
-            - Implementato una cache I/O per le mappe sui dispositivi embedded Garmin, in C++.
+          During my first two years as Software Engineer, I had to deal with different kind of problems ranging from
+          supporting OEMs into integrating our C++ library, through debugging sessions in embedded devices (Multi Functional Displays)
+          and bug fixing on C/C++ legacy code.
+          I took part in developing web services as well, using C#/ASP.NET and Java/Spring boot not disadining designing and implementing an I/O 
+          cache for the map system used by all the Garmin devices.
+
       - role: Software Developer
         time: 2015 - 2019
         company: Apparound, Pisa - Italy
@@ -129,15 +130,15 @@ experiences:
 projects:
     title: Personal Projects
     intro: >
-      Here are some of the projects I developed during the years in my spare time.
+      Here are some of the projects I developed during the years, in my spare time.
     assignments:
       - title: Authenticated Ladder
         link: "https://github.com/SpasmodicSoftware/AuthenticatedLadder"
-        tagline: "Developed an opensource ranking formerly used in the early stages of the Demoniaca: Everlasting Nights video game, using ASP.NET Core and EntityFramework Core for the backend, JWT to sign the payload and travis.ci+coveralls+docker for the continuous integration. The project is automatically deployed with Fabric on a DigitalOcean droplet. It has 98.225% of code coverage, for what is worth :)"
+        tagline: "Developed an opensource ranking system, formerly used in the early stages of the \"Demoniaca: Everlasting Night\" video game, using ASP.NET Core and EntityFramework Core for the backend, JWT to sign the payload and travis.ci+coveralls+docker for the continuous integration. The project is automatically deployed with Fabric on a DigitalOcean droplet. It has 98.225% of code coverage, for what is worth :)"
 
       - title: Quattro
         link: "./assets/images/gameplay.jpg"
-        tagline: "A 2D retro pixel art platform concept developed in 48 hours during Internet Festival 2014's Game Jam using Unity 3D. The game has been selected for the final, but we never finished it. The game has also been awarded the popular jury award The game rights have been sold to Gamera Interactive and the game hit the market as Unit 4"
+        tagline: "A 2D retro pixel art platform concept developed in 48 hours during <a href=\"https://www.youtube.com/watch?v=i96UP0g-dL8\" target=\"_blank\">Internet Festival 2014's Game Jam</a> using Unity 3D. The game has been selected for the final, but we never finished it. The game has also been awarded the popular jury award The game rights have been sold to Gamera Interactive and the game hit the market as Unit 4"
 
       - title: Camouman
         link: "https://play.google.com/store/apps/details?id=com.me.camuman"
@@ -147,8 +148,8 @@ projects:
         link: "./assets/images/spunball.png"
         tagline: "Experiments with LibGDX with the intent to produce a 2D platform suitable for Android devices. We also developed our own level editor exploiting SVG's XML structure."
 
-skills:
-    title: Skills &amp; Proficiency
+#skills:
+#    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
+#    toolset:
+#      - name: Python & Django
