@@ -4,262 +4,152 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Alessandro Lensi
+    tagline: Senior Software Engineer
+    avatar: profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: nomadster@fastmail.com
+    phone: +39 349 6132840
+    timezone: Europe/Rome Timezone
+    citizenship: Italian
+    website: www.spasmodicsoftware.it #do not add http://
+    linkedin: alessandrolensi
+    github: nomadster
+    telegram: nomadster # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 1765323/alessandro-l # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Italian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      With over 10 years of experience in software engineering, 
+      I am passionate about creating innovative and user-friendly solutions for
+      the leisure boating market. I have a strong background in computer science, and 
+      I am proficient in C#, Linux, C, Java, Whatever you like. 
+      As a Senior Software Engineer at Garmin Italy Technologies, I work with a 
+      talented and diverse team of engineers, designers, and product managers to 
+      develop electronic charts that enhance the navigation and safety of boaters around the world.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Computer Science
+        university: University of Pisa
+        time: 2007 - 2013
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          My thesis work, which you can find <a href="https://github.com/nomadster/lamg_cpp" target="_blank">here</a>, consisted in porting an algebraic multigrid algorithm from its Matlab implementation 
+          into the Operations Research Group framework, using C++ and Expression Templates.
+          
+          I graduated with a score of 101 out of 110.
+          
+          Relevant courses for which I developed a project:
+
+            - Logistic: modeled a small Network Design problem solved using Sage Math + Python;
+            - CMS: had the chance to play with LaTeX typesetting system which I used to write a small essay;
+            - <a href="https://github.com/nomadster/LPR" target="_blank">Network Programming:</a> developed a GNU-tella like, multi-threaded, distributed file sharing system using Java and Java-RMI;
+            - <a href="https://github.com/nomadster/SOL" target="_blank">Advanced Programming:</a> developed a multi-threaded client-server program simulating a car-sharing system, using BASH, C and POSIX threads;
+            - <a href="https://github.com/nomadster/ESP" target="_blank">ESP:</a> developed numerical code in C to compute 1.000.000! using Fast Fourier Transform to speed up multiplication.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: 2021 - Present
+        company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          From 2021 I am a Senior Software Engineer. My responsibilities now consists of also mentoring and helping grow
+          junior engineers, as well as designing solutions to problems. Since January 2024 I have been officially assigned a mentee to mentor.
+         # In these 3 years I:
+         # - merge di develop
+         # - jenkins, per la build delle librerie per target emebedded.
+         # - Lead a project with 2 Engineers. (Autorenewable)
+         # - SPSL-> C++, Imaging C++ code, legacy C++ code, docker, coordinating between indian engineers and external consultants
+         # Java
+         # - QDC2.0 C++ code inside the main library of Garmin Marine.
+
+      - role: Software Engineer II
+        time: 2019 - 2021
+        company: Garmin Italy Technologies (was Navionics), Massarosa - Italy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          During my first two years as Software Engineer, I had to deal with different kind of problems ranging from
+          supporting OEMs into integrating our C++ library, through debugging sessions in embedded devices (Multi Functional Displays)
+          and bug fixing on C/C++ legacy code.
+          I took part in developing web services as well, using C#/ASP.NET and Java/Spring boot not disadining designing and implementing an I/O 
+          cache for the map system used by all the Garmin devices.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Software Developer
+        time: 2015 - 2019
+        company: Apparound, Pisa - Italy
+        details: |
+          Apparound is a company that delivers B2B solutions to digitise the selling process.
+          My main tasks and responsibilities included:
+          - Porting the internal app store to ASP.NET. This was an in-house app store for mobile devices to release beta versions
+          of our app for our customers without having to pass from the official stores.
+          - Maintain and improve the backoffice portal using AngularJS and ASP.NET with a Scrum approach.
+          - Develop and improve a webapp version of the main product application and its modules and features, 
+          using ReactJS + Redux for the frontend and ASP.Net and Node.JS for the backend.
+          - Contribute to develop a multi-tenant cloud infrastructure, porting the on premise solution.
+          - Develop an ASP.NET Core solution to handle digital signatures of contracts.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Software developer
+        time: 2013 - 2015
+        company: Gruppo Meta, Pisa - Italy
+        details: |
+          Gruppo Meta is a company that deals with the digital publishing industry.
+          My tasks consisted of:
+          - Building and maintaining the in-house node.js microframework, built on top of KOA.js
+          - Design and development of HTTP API and backend services using the in house microframework
+          - Building the infrastructure using Docker as a stepping stone to a microservice architecture
+          - Defining and implementing the Markup metalanguage used to import and index the dictionaries
+          - Building the parser, importer and indexer of the dictionaries
+
+      - role: Tutor
+        time: 2007 - 2013
+        company: Self Employed, Italy :)
+        details: |
+          Private lessons of Arithmetic, Calculus, Computer Science and Physics to students of any grade.
 
 projects:
-    title: Projects
+    title: Personal Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some of the projects I developed during the years, in my spare time.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Authenticated Ladder
+        link: "https://github.com/SpasmodicSoftware/AuthenticatedLadder"
+        tagline: "Developed an opensource ranking system, formerly used in the early stages of the \"Demoniaca: Everlasting Night\" video game, using ASP.NET Core and EntityFramework Core for the backend, JWT to sign the payload and travis.ci+coveralls+docker for the continuous integration. The project is automatically deployed with Fabric on a DigitalOcean droplet. It has 98.225% of code coverage, for what is worth :)"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Quattro
+        link: "./assets/images/gameplay.jpg"
+        tagline: "A 2D retro pixel art platform concept developed in 48 hours during <a href=\"https://www.youtube.com/watch?v=i96UP0g-dL8\" target=\"_blank\">Internet Festival 2014's Game Jam</a> using Unity 3D. The game has been selected for the final, but we never finished it. The game has also been awarded the popular jury award The game rights have been sold to Gamera Interactive and the game hit the market as Unit 4"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Camouman
+        link: "https://play.google.com/store/apps/details?id=com.me.camuman"
+        tagline: "A free game for Android, developed using LibGDX (Java) and available on Google Play Store"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Spunball
+        link: "./assets/images/spunball.png"
+        tagline: "Experiments with LibGDX with the intent to produce a 2D platform suitable for Android devices. We also developed our own level editor exploiting SVG's XML structure."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#skills:
+#    title: Skills &amp; Proficiency
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#    toolset:
+#      - name: Python & Django
